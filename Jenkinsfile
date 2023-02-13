@@ -4,7 +4,8 @@ node {
         echo 'Building...'
     }
     stage('Test') {
-        echo 'Testing...'
+        echo 'Test...'
+        echo 'Go'
     }
     stage('Deploy') {
         echo 'Deploying...'
