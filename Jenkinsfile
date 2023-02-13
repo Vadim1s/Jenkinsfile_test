@@ -5,7 +5,6 @@ node {
     }
     stage('Test') {
         echo 'Test...'
-        echo 'Go'
     }
     stage('Deploy') {
         echo 'Deploying...'
